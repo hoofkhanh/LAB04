@@ -1,0 +1,27 @@
+
+public class HinhHoc {
+	public float PI;
+	public String ten;
+	public float chuVi, dienTich, theTich;
+
+	public HinhHoc() {
+		this.PI = 3.14f;
+	}
+
+	public void xuatTen() {
+		System.out.println("Tên : " + this.ten);
+	}
+
+	public void inChuVi() {
+		System.out.println("Chu vi = " + this.chuVi);
+	}
+
+	public void inDienTich() {
+		System.out.println("Diện tích = " + this.dienTich);
+	}
+
+	public void inTheTich() {
+		System.out.println("Thể tích = " + this.theTich);
+	}
+}
+
